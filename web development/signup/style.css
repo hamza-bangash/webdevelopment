@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outerbox{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, rgb(233, 138, 138), hsl(60, 55%, 78%));
+}
+.inerbox{
+   
+    width: 400px;
+    margin: 0px 30px;
+    background: linear-gradient(to bottom right, white,rgb(223, 223, 165));
+    padding: 40px 40px;
+    position: relative;
+    top: 30%;
+    left: 35%;
+    border-radius: 5px;
+    z-index: 2;
+    font-size: 1.5rem;
+}
+.header h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.header p{
+    font-size: 0.8rem;
+    color: rgb(105, 95, 80);
+}
+.signup-body{
+   margin: 10px auto;
+}
+.signup-body p{
+    margin:2px 10px;
+}
+.signup-body p input{
+    border-radius: 2px;
+    display: block;
+}
+.signup-body p input[type="submit"]{
+    background-color: powderblue;
+    cursor: pointer;
+    
+}
+.signup-body p input[type="submit"]:hover{
+   color: yellow;
+}
+.signup-footer p a:hover{
+ color: green;
+}
+.circle{
+    width: 200px;
+    height:200px;
+    border-radius: 100px;
+    background: linear-gradient(to top left, rgb(241, 142, 142),rgb(95, 131, 95));
+    position: absolute;
+}
+.c1{
+    top: 0px;
+    left: 0px;
+}
+.c2{
+    bottom: 0px;
+    right: 0px;
+}
+
