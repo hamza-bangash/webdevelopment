@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 50px;
+    padding: 20px;
+    background-color: black;
+    border: 5px solid red;
+    height: 300px;
+}
+
+.box{
+    background-color: #fff;
+    border: 5px solid blueviolet;
+    height: 150px;
+    width: 150px;
+    margin: 20px auto;
+
+   /* transform: scale(1);  scale property is used to measure the size of box 1 is 100% of you to bigger give vale more than if you want to less size give value less than 1 */
+   /*transform: scaleX(1.5);
+   transform: scaleY(.75);
+   transform: scaleZ(5);  scale on cordinates xyz */
+
+   /* transform: skew(20deg); this property is used to change direction  item on different cordinates xyz
+    transform: skew(20deg , 50deg ,90deg) like this first it will rotate around x-axes , y and z axes */
+
+    /* transform: translate(50px, 60px, 70px); this is used to move the box according xyz cordinates */
+
+   /* transform: rotate(20deg); this will rotate box in z dictortion 
+   transform: rotateX(20deg); now will rotate in x dicration and so own */
+
+   /* transform-origin: top left;  this wil where is the origin that box should rotate
+   transform-origin: 20% 10%  you can also use  % is well and so own like others unit */
+
+
+}   
