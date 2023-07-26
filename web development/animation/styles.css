@@ -18,6 +18,11 @@
     text-align: center;
     animation: circle;
     animation-duration: 5s;
+    animation-delay: 1s; /*it will delay it the beging then it will start*/
+    animation-iteration-count: infinite; /*it will count how much animation will happen */
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    animation-fill-mode: backwards;
 }
 @keyframes circle{
     0%{
