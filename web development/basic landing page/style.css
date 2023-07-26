@@ -1,0 +1,70 @@
+/* RESt */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* utlilty */
+
+:root{
+    --primary-color:#000000;
+    --secandory-color: #6b4c4c ;
+    --primary-background-color: #e8e6e6;
+}
+.container{
+    max-width: 1080px;
+    margin: 10px auto;
+}
+.flex{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 5rem;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration-line: none;
+    color:black;
+}
+ul{
+    list-style-type: none;
+    font-size: xx-large;
+    font-weight: bold;
+}
+body{
+    line-height: 1.5rem;
+    color: var(--primary-color);
+    background-color:var(--primary-background-color);
+    font-size: large;
+}
+
+
+/*logo */
+.logo{
+    width: 7rem;
+}
+
+/* nav-bar */
+.nav-bar{
+ background-color: aquamarine;
+}
+.nav-bar li:hover{
+    border-bottom: 5px solid #fff;
+}
+
+/*main body */
+
+.main-body p{
+    color: var(--secandory-color);
+}
+
+/*footer */
+.footer-section{
+    background-color: #aa7878;
+}
+.footer-logo{
+    width: 6rem;
+}
